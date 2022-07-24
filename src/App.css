@@ -4,11 +4,19 @@ body{
 .App {
   text-align: center;
 }
+.model-displayer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
 .canvas-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  width: 100vw;
+  height: 100vh;
+  width: 50vw;
   flex-direction: column;
+  flex: 1;
 }
